@@ -1,0 +1,82 @@
+Supervised Learning
+Regression
+
+				Machine Learning Algo
+		           (Model is always a STATIC model)
+					|
+		------------------------------------------------------------
+		|							   |
+	Supervised Learning					Unsupervised Learning
+Your data will possess						Your data possess only
+a. Features							a. Features
+b. Label
+
+		|
+	-------------------------------------------------
+	|					        |
+Regression Based			Classification Based
+Learning				Learning
+If Label holds				If Label holds Categorical
+Numeric Data,				Data, go for Classification
+go for Regression based			based Algo
+Algo.
+
+- Simple LR
+- Polynomial LR
+- Multiple LR
+- SVR
+- DecisionTR
+- RandomForestR
+- Lasso & Ridge
+- KNN Regression
+
+
+
+
+
+Simple Linear Regression
+=========================
+
+Rule:
+1. You have only ONE feature
+2. You have only ONE label
+3. Your feature must have some linear relationship w.r.t. label
+
+Formula/Algo:
+===============
+Slope - intercept formula ---> Line
+Best Fit Line based on the given use-case
+
+y = mx + b 
+y = Slope * x + Intercept
+
+
+Polynomial Line Equation
+===========================
+Assuming the degree is 2
+
+x^0 + X^1 + X^2 + ......
+
+y = 1 +  Slope1 * x1 + Slope2 * x1^2 + Intercept
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
